@@ -38,8 +38,8 @@ namespace BiomorphSharp
 
         private void DisplayImages()
         {
-            Image00.Background = mainController.Biomorph[0,0].Brush;
-            Image00.Tag = mainController.Biomorph[0,0];
+            Image00.Background = mainController.Biomorphs[0,0].Brush;
+            Image00.Tag = mainController.Biomorphs[0,0];
 
             //Image10
             //Image20
